@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "on-primary-fixed-variant": "#005049", "on-secondary": "#ffffff", "on-secondary-fixed": "#00201d", "surface": "#faf8ff", "on-error": "#ffffff", "surface-container-highest": "#dae2fd", "on-background": "#131b2e", "surface-dim": "#d2d9f4", "error-container": "#ffdad6", "on-surface": "#131b2e", "error": "#ba1a1a", "on-surface-variant": "#3d4947", "outline-variant": "#bcc9c6", "surface-tint": "#006a61", "inverse-on-surface": "#eef0ff", "on-tertiary-container": "#fdfcff", "on-tertiary-fixed-variant": "#004b74", "tertiary-fixed-dim": "#94ccff", "tertiary-container": "#287ab3", "on-secondary-container": "#006f67", "on-tertiary-fixed": "#001d32", "secondary": "#006a63", "on-tertiary": "#ffffff", "surface-variant": "#dae2fd", "tertiary": "#006195", "surface-container-high": "#e2e7ff", "secondary-fixed": "#9cf2e8", "on-primary-container": "#f4fffc", "on-error-container": "#93000a", "background": "#faf8ff", "inverse-primary": "#6bd8cb", "tertiary-fixed": "#cde5ff", "primary": "#00685f", "primary-fixed": "#89f5e7", "secondary-fixed-dim": "#80d5cb", "on-secondary-fixed-variant": "#00504a", "surface-container-low": "#f2f3ff", "primary-fixed-dim": "#6bd8cb", "on-primary-fixed": "#00201d", "inverse-surface": "#283044", "surface-bright": "#faf8ff", "surface-container": "#eaedff", "secondary-container": "#99efe5", "outline": "#6d7a77", "primary-container": "#008378", "surface-container-lowest": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "2rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-lg": "1.5rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem" }, "fontFamily": { "body-sm": [ "Plus Jakarta Sans" ], "headline-md": [ "Newsreader" ], "headline-xl-mobile": [ "Newsreader" ], "label-lg": [ "Plus Jakarta Sans" ], "headline-xl": [ "Newsreader" ], "headline-sm": [ "Newsreader" ], "headline-lg": [ "Newsreader" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Newsreader" ] }, "fontSize": { "body-sm": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-md": [ "26px", { "lineHeight": "34px", "fontWeight": "600" } ], "headline-xl-mobile": [ "34px", { "lineHeight": "42px", "fontWeight": "500" } ], "label-lg": [ "15px", { "lineHeight": "20px", "fontWeight": "600" } ], "headline-xl": [ "48px", { "lineHeight": "56px", "fontWeight": "500" } ], "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "fontWeight": "500" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "body-md": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-md": [ "13px", { "lineHeight": "18px", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "fontWeight": "700" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,104,95,0.06)]"><div class="bg-surface-container-high py-space-xs text-on-surface-variant"><div class="max-w-7xl mx-auto px-space-lg flex flex-wrap items-center justify-between gap-space-xs font-label-sm text-label-sm"> <div class="flex items-center gap-space-md"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-primary">schedule</span>Mon - Sat: 9:00 AM - 1:00 PM &amp; 5:00 PM - 8:30 PM [Placeholder]</span><span class="hidden sm:inline-block text-outline-variant">|</span><span class="hidden sm:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-primary">location_on</span>Guindy, Chennai</span></div><div class="flex items-center gap-space-md"><button class="inline-flex items-center gap-space-xs bg-primary text-on-primary px-space-xs py-0.5 rounded-full font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary-container transition-colors cursor-pointer" onclick="switchConsultationMode('online')" type="button"><span class="material-symbols-outlined text-[14px]">videocam</span>Online Video Consult ₹200</button><a class="flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors" href="tel:+918072004703"><span class="material-symbols-outlined text-[15px] text-primary">call</span>+91 80720 04703</a><a class="flex items-center gap-space-xs bg-secondary-container text-on-secondary-container px-space-xs py-0.5 rounded-full hover:bg-secondary hover:text-on-secondary transition-colors" href="https://wa.me/918072004703" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[14px]">chat</span>WhatsApp Chat</a></div></div></div><div class="h-20 max-w-7xl mx-auto px-space-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Dr. Priya Clinic Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO2cE6Xkexnr8R8gImWHdgsc7budhpobfcGxClTtYS6H6B3bZReFSKIOiikUL2QxfwPdb1TzdhsLfsNH5nrUK-RZFK12_A0WzREztZgiigEXAhc3sjS-Hb2ITxueg8l3TkuHJMjorEgef1zH3U7vtjj03Pb-4X_pPQSxAE7BLHZKkQHy1m66sb9GTQGrMfNDxU0B0OwwbtHeoNmMoxFXEMzvPTYdubpPbUvnyYVl_BNaY47WmrQYq_2A"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight">Dr. Priya Clinic</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Boutique Healthcare • Guindy</span></div></a><div class="hidden xl:flex items-center gap-space-xs bg-secondary-container px-space-sm py-1 rounded-full"><span class="material-symbols-outlined text-secondary text-[16px]">verified</span><span class="font-label-sm text-label-sm text-on-secondary-container">Reg. No: 64892 • 15+ Yrs Exp</span></div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-full"><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded-full transition-colors" data-path="home" href="#">Home</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded-full transition-colors" data-path="about-dr-priya" href="#">About Dr. Priya</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded-full transition-colors" data-path="services" href="#">Services</a><a aria-current="page" class="px-space-sm py-1.5 transition-colors bg-primary-container text-on-primary-container font-semibold rounded-full" data-path="appointments" href="#">Appointments</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded-full transition-colors" data-path="patient-info" href="#">Patient Info</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded-full transition-colors" data-path="contact-location" href="#">Contact &amp; Location</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center gap-space-xs bg-error-container text-error px-space-sm py-1 rounded-full"><span class="material-symbols-outlined text-[16px]">emergency</span><span class="font-label-sm text-label-sm">Emergency: 108</span></div><a class="flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors" href="tel:+918072004703"><span class="material-symbols-outlined text-[15px] text-primary">call</span>+91 80720 04703</a><a class="inline-flex items-center justify-center font-label-md text-label-md bg-primary text-on-primary px-space-md py-2 rounded-full shadow-[0_2px_8px_rgba(0,104,95,0.2)] hover:bg-primary-container hover:text-on-primary-container transition-colors" data-path="appointments" href="#">Book Appointment</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-18rem)]"><div class="flex flex-col w-full">
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low via-surface to-surface pb-space-xl">
+<div class="absolute -top-32 right-12 w-96 h-96 rounded-full bg-secondary-container/30 blur-3xl pointer-events-none"></div>
+<div class="absolute top-48 -left-20 w-80 h-80 rounded-full bg-primary-fixed/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-space-lg pt-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="inline-flex items-center gap-space-xs bg-secondary-container/60 text-on-secondary-container px-space-sm py-1 rounded-full">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+<span class="font-label-sm text-label-sm tracking-wide uppercase">TN Medical Council Reg. #64892 • Boutique Care</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Request an Appointment with Dr. Priya, MBBS</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Thoughtful, unhurried primary medical consultations designed around your recovery in Guindy, Chennai.
+          </p>
+</div>
+<div class="hidden lg:flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">avg_pace</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface">Average Response</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Under 30 mins during OPD hours</div>
+</div>
+</div>
+</div>
+<div class="w-full bg-surface-container-highest/60 rounded-xl p-space-md shadow-sm mb-space-xl">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[22px]">info</span>
+</div>
+<div class="space-y-1">
+<span class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs">
+              Important Notice: Request Only, Not Instant Booking
+            </span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Submitting this form is an appointment request and <strong>NOT a confirmed booking</strong>. Our clinic coordinator will review Dr. Priya's schedule and promptly call or message you via WhatsApp to confirm your exact appointment slot and timing.
+            </p>
+</div>
+</div>
+</div>
+<div class="w-full mb-space-lg"><div class="bg-surface-container-high p-1.5 rounded-2xl flex flex-col sm:flex-row gap-2 max-w-2xl mx-auto shadow-sm"><button class="flex-1 flex items-center justify-center gap-space-xs py-3 px-space-md rounded-xl font-label-md text-label-md transition-all bg-primary-container text-on-primary-container font-semibold shadow-sm" id="tab-btn-inperson" onclick="switchConsultationMode('inperson')" type="button"><span class="material-symbols-outlined text-[20px]">location_on</span><span>In-Person Clinic Visit (Guindy)</span></button><button class="flex-1 flex items-center justify-center gap-space-xs py-3 px-space-md rounded-xl font-label-md text-label-md transition-all bg-surface-container text-on-surface-variant hover:text-primary" id="tab-btn-online" onclick="switchConsultationMode('online')" type="button"><span class="material-symbols-outlined text-[20px] text-secondary">videocam</span><span>Online Video Consultation <span class="ml-1 bg-secondary-container text-on-secondary-container px-2 py-0.5 rounded-full text-[11px] font-bold">WhatsApp • ₹200</span></span></button></div></div><div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<div class="lg:col-span-8">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg sm:p-space-xl shadow-sm" id="inperson-consultation-section">
+<div class="flex items-center justify-between pb-space-md mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Patient Intake • Step 1 of 2</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Consultation Booking Details</h2>
+</div>
+<span class="hidden sm:inline-block font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-sm py-1 rounded-full">
+                * Indicates required field
+              </span>
+</div>
+<form class="space-y-space-lg" id="appointment-form" onsubmit="event.preventDefault(); handleAppointmentSubmit();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="space-y-space-xs sm:col-span-2">
+<label class="block font-label-md text-label-md text-on-surface" for="full-name">
+                    Patient Full Name <span class="text-error">*</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">person</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="full-name" name="fullName" placeholder="e.g. Anandhi Rajagopal" required="" type="text"/>
+</div>
+</div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface" for="mobile-phone">
+                    Mobile Number <span class="text-error">*</span>
+</label>
+<div class="relative flex items-center">
+<div class="absolute left-3 flex items-center gap-1 font-label-md text-label-md text-on-surface-variant select-none pointer-events-none">
+<span>+91</span>
+<span class="w-px h-4 bg-outline-variant inline-block ml-1"></span>
+</div>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-16 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="mobile-phone" maxlength="10" name="mobile" pattern="[0-9]{10}" placeholder="98XXXXXXXX" required="" type="tel"/>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">For verification call &amp; WhatsApp status update</p>
+</div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface" for="email-address">
+                    Email Address <span class="text-outline text-label-sm font-normal">(Optional)</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">mail</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="email-address" name="email" placeholder="patient@example.com" type="email"/>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Digital consultation summary receipt</p>
+</div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface" for="patient-age">
+                    Age <span class="text-outline text-label-sm font-normal">(Years)</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">calendar_month</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="patient-age" max="120" min="1" name="age" placeholder="e.g. 34" type="number"/>
+</div>
+</div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface" for="patient-gender">
+                    Gender <span class="text-outline text-label-sm font-normal">(Optional)</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">wc</span>
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-8 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all appearance-none" id="patient-gender" name="gender">
+<option value="">Select Gender</option>
+<option value="Female">Female</option>
+<option value="Male">Male</option>
+<option value="Non-binary / Other">Non-binary / Other</option>
+<option value="Prefer not to say">Prefer not to say</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm space-y-space-md"><div class="flex items-center justify-between"><span class="font-label-lg text-label-lg text-primary block">Select Consultation Type &amp; Fee</span><span class="font-label-sm text-label-sm text-secondary bg-secondary-container/60 px-space-sm py-0.5 rounded-full">No advance payment required</span></div><div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm" id="type-selector-group"><button class="type-btn text-left p-space-md rounded-lg bg-surface-container transition-all flex flex-col justify-between min-h-[7rem]" onclick="selectType(this, 'First Visit', '₹500', '20–25 mins')" type="button"><div class="flex items-center justify-between w-full"><span class="material-symbols-outlined text-primary">clinical_notes</span><span class="font-label-md text-label-md font-bold text-primary">₹500</span></div><div><div class="font-label-md text-label-md text-on-surface">First Visit / General OPD</div><div class="font-label-sm text-label-sm text-on-surface-variant">20–25 Mins • Thorough Assessment</div></div></button><button class="type-btn text-left p-space-md rounded-lg bg-primary-container text-on-primary-container shadow-md transition-all flex flex-col justify-between min-h-[7rem] active-type" onclick="selectType(this, 'Routine Follow-up', '₹350', '15 mins')" type="button"><div class="flex items-center justify-between w-full"><span class="material-symbols-outlined text-on-primary-container">sync</span><span class="font-label-md text-label-md font-bold text-on-primary-container">₹350</span></div><div><div class="font-label-md text-label-md text-on-primary-container">Routine Follow-up</div><div class="font-label-sm text-label-sm text-on-primary-container/80">15 Mins • Within 14 days of last visit</div></div></button><button class="type-btn text-left p-space-md rounded-lg bg-surface-container transition-all flex flex-col justify-between min-h-[7rem]" onclick="selectType(this, 'Comprehensive Preventive Check', '₹800', '35 mins')" type="button"><div class="flex items-center justify-between w-full"><span class="material-symbols-outlined text-primary">cardiology</span><span class="font-label-md text-label-md font-bold text-primary">₹800</span></div><div><div class="font-label-md text-label-md text-on-surface">Comprehensive Check</div><div class="font-label-sm text-label-sm text-on-surface-variant">35 Mins • Full Vitals &amp; Lifestyle Review</div></div></button><button class="type-btn text-left p-space-md rounded-lg bg-surface-container transition-all flex flex-col justify-between min-h-[7rem]" onclick="selectType(this, 'Report Review', '₹250 / Compl.', '10–15 mins')" type="button"><div class="flex items-center justify-between w-full"><span class="material-symbols-outlined text-primary">lab_profile</span><span class="font-label-md text-label-md font-bold text-primary">₹250 / Compl.</span></div><div><div class="font-label-md text-label-md text-on-surface">Report Review / Quick Query</div><div class="font-label-sm text-label-sm text-on-surface-variant">Blood work, ECG or investigation reviews</div></div></button></div><div class="bg-surface-container-low border border-secondary-container rounded-lg p-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">receipt_long</span><div><span class="font-label-sm text-label-sm text-on-surface-variant block">Estimated Consultation Charge:</span><span class="font-label-md text-label-md font-bold text-primary" id="fee-summary-text">Routine Follow-up: ₹350 (Approx. 15 mins)</span></div></div><div class="text-right sm:text-right"><span class="font-label-sm text-label-sm text-on-surface-variant block">Payable at Clinic Reception</span><span class="text-[12px] text-secondary font-semibold">UPI, Cards &amp; Cash Accepted</span></div></div><input id="selected-consult-type" name="consultType" type="hidden" value="Routine Follow-up"/><input id="selected-consult-fee" name="consultFee" type="hidden" value="₹350"/></div><div class="pt-space-sm space-y-space-md"><div class="flex items-center justify-between"><span class="font-label-lg text-label-lg text-primary block">Payment Mode &amp; Online Options</span><span class="font-label-sm text-label-sm text-secondary bg-secondary-container/60 px-space-sm py-0.5 rounded-full">Touchless &amp; Secure</span></div><div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm" id="payment-mode-group"><div class="p-space-md rounded-lg border-2 border-primary bg-primary-fixed/20 cursor-pointer flex flex-col justify-between transition-all"><div class="flex items-center justify-between mb-space-xs"><span class="material-symbols-outlined text-primary text-[22px]">qr_code_scanner</span><span class="bg-primary text-on-primary font-label-sm text-[11px] px-2 py-0.5 rounded-full font-bold">Recommended</span></div><div><div class="font-label-md text-label-md font-bold text-on-surface">Pay Online via UPI / QR Code</div><div class="font-label-sm text-label-sm text-on-surface-variant">Instant verification &amp; touchless check-in</div></div></div><div class="p-space-md rounded-lg border border-outline-variant bg-surface-container-low cursor-pointer flex flex-col justify-between hover:bg-surface-container transition-all"><div class="flex items-center justify-between mb-space-xs"><span class="material-symbols-outlined text-outline text-[22px]">point_of_sale</span><span class="font-label-sm text-[11px] text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">At Counter</span></div><div><div class="font-label-md text-label-md font-semibold text-on-surface">Pay at Clinic Reception</div><div class="font-label-sm text-label-sm text-on-surface-variant">Cash, Debit/Credit Card or Reception UPI</div></div></div></div><div class="bg-surface-container-lowest border border-secondary-container rounded-xl p-space-md shadow-sm space-y-space-md"><div class="flex flex-col sm:flex-row items-center sm:items-start gap-space-md"><div class="shrink-0 w-36 sm:w-40 rounded-lg overflow-hidden border border-outline-variant shadow-sm bg-surface-container-lowest"><img alt="Clinic Official UPI QR Code Display" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UXXrGARgZr0AspSsClhCu0fw6PyuSAgj5z9P0ES0CtEm4f8rapiiRqy_eRs3DAUhs4jKSjfmYI6etKb3YZhOcFf_L40zb_9zpzLfR-ctcu6dd8ti3td31JX4K7wqrkzoFOIvRg-WpxIDycUhbk1BFThEu-tT1IP20cg0iR2EQRPcvw1pX_DZ77ccQ8MAQ96Zq0lL-Nhx-iOHD2t9WHyyqtCpFuwu2pEl2DDrA-IgjdgbabI0CR826qSQv9"/></div><div class="flex-1 space-y-space-xs"><div class="flex flex-wrap items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">verified</span><span class="font-label-sm text-label-sm text-secondary font-semibold">Verified Medical Merchant • HDFC Bank</span></div><h4 class="font-headline-sm text-headline-sm text-on-surface">Dr. Priya Clinic Guindy</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Scan with any UPI app to make a direct touchless consultation deposit, or copy clinic UPI ID below:</p><div class="flex items-center gap-space-xs bg-surface-container-low px-space-md py-2 rounded-lg border border-outline-variant max-w-md"><span class="material-symbols-outlined text-primary text-[18px]">alternate_email</span><span class="font-label-md text-label-md text-on-surface select-all font-mono">drpriya.clinic@okhdfcbank</span><button class="ml-auto inline-flex items-center gap-1 font-label-sm text-[12px] text-primary hover:text-primary-container font-semibold transition-colors" onclick="navigator.clipboard.writeText('drpriya.clinic@okhdfcbank'); this.innerText='Copied!';" type="button"><span class="material-symbols-outlined text-[14px]">content_copy</span>Copy</button></div><div class="flex flex-wrap items-center gap-space-xs pt-1"><span class="font-label-sm text-[12px] text-on-surface-variant">Accepted Apps:</span><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-[11px] font-medium">Google Pay</span><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-[11px] font-medium">PhonePe</span><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-[11px] font-medium">Paytm</span><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-[11px] font-medium">BHIM UPI</span><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-[11px] font-medium">Navi</span></div></div></div><div class="pt-space-xs border-t border-outline-variant space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="upi-utr-ref">UPI Transaction / UTR Reference No. <span class="text-outline text-label-sm font-normal">(Optional — for quick fast-track receipt)</span></label><div class="relative max-w-md"><span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">tag</span><input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-2.5 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline font-mono text-[14px]" id="upi-utr-ref" name="upiRefNo" placeholder="e.g. 12-digit UTR reference after payment" type="text"/></div></div><div class="flex items-center gap-space-xs bg-secondary-container/30 px-space-sm py-2 rounded-lg text-on-secondary-container"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">shield_check</span><p class="font-label-sm text-[12px]"><strong>Peace of Mind Guarantee:</strong> 100% refundable if appointment is cancelled or rescheduled by the clinic. Zero cancellation penalty.</p></div></div></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs"><div class="sm:col-span-2 space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="preferred-date">Preferred Consultation Date <span class="text-error">*</span></label><div class="relative max-w-md"><span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">event</span><input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all" id="preferred-date" name="preferredDate" required="" type="date"/></div><span class="font-label-sm text-label-sm text-on-surface-variant">Clinic consultation is available Monday through Saturday</span></div><div class="sm:col-span-2 space-y-space-sm pt-space-xs"><div class="flex flex-wrap items-center justify-between gap-space-xs"><label class="block font-label-md text-label-md text-on-surface">Preferred OPD Time Slot <span class="text-error">*</span></label><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> Available</span><span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-error"></span> Fast Filling</span></div></div><div class="space-y-space-sm"><div class="bg-surface-container-low p-space-sm rounded-lg"><div class="flex items-center gap-space-xs mb-space-xs"><span class="material-symbols-outlined text-primary text-[18px]">wb_sunny</span><span class="font-label-md text-label-md text-primary font-semibold">Morning OPD Session (09:00 AM – 01:00 PM)</span></div><div class="flex flex-wrap gap-2" id="morning-slots"><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '09:00 AM (Morning)')" type="button">09:00 AM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '09:30 AM (Morning)')" type="button">09:30 AM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors flex items-center gap-1" onclick="selectSlot(this, '10:00 AM (Morning)')" type="button"><span>10:00 AM</span><span class="text-[11px] text-error font-bold">• 2 left</span></button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-primary-container text-on-primary-container font-semibold transition-colors" onclick="selectSlot(this, '10:30 AM (Morning)')" type="button">10:30 AM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '11:15 AM (Morning)')" type="button">11:15 AM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors flex items-center gap-1" onclick="selectSlot(this, '11:45 AM (Morning)')" type="button"><span>11:45 AM</span><span class="text-[11px] text-secondary font-bold">• Open</span></button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '12:15 PM (Morning)')" type="button">12:15 PM</button></div></div><div class="bg-surface-container-low p-space-sm rounded-lg"><div class="flex items-center gap-space-xs mb-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">nights_stay</span><span class="font-label-md text-label-md text-secondary font-semibold">Evening OPD Session (05:00 PM – 08:30 PM)</span></div><div class="flex flex-wrap gap-2" id="evening-slots"><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '05:00 PM (Evening)')" type="button">05:00 PM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors flex items-center gap-1" onclick="selectSlot(this, '05:30 PM (Evening)')" type="button"><span>05:30 PM</span><span class="text-[11px] text-error font-bold">• 1 left</span></button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '06:00 PM (Evening)')" type="button">06:00 PM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '06:30 PM (Evening)')" type="button">06:30 PM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '07:00 PM (Evening)')" type="button">07:00 PM</button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors flex items-center gap-1" onclick="selectSlot(this, '07:30 PM (Evening)')" type="button"><span>07:30 PM</span><span class="text-[11px] text-secondary font-bold">• Open</span></button><button class="slot-chip px-3 py-1.5 rounded-md font-label-sm text-label-sm bg-surface-container text-on-surface hover:bg-secondary-container transition-colors" onclick="selectSlot(this, '08:00 PM (Evening)')" type="button">08:00 PM</button></div></div><input id="selected-slot-input" name="preferredSlot" type="hidden" value="10:30 AM (Morning)"/></div><div class="pt-space-xs"><label class="block font-label-sm text-label-sm text-on-surface-variant mb-1" for="custom-slot-note">Timing note / Elder priority assistance (Optional):</label><input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm px-3.5 py-2 rounded-lg focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="custom-slot-note" name="customSlotNote" placeholder="e.g. Bringing senior citizen parent, prefer ground-level prompt slot or 6:15 PM sharp if possible" type="text"/></div></div></div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface" for="reason">
+                  Brief Reason for Visit <span class="text-outline text-label-sm font-normal">(Optional)</span>
+</label>
+<textarea class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md p-3.5 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline resize-none" id="reason" name="reason" placeholder="Briefly describe your symptoms or consultation reason (e.g. ongoing seasonal fever, BP checkup, prescription renewal)" rows="3"></textarea>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low">
+<label class="flex items-start gap-space-sm cursor-pointer select-none">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer shrink-0" id="consent-checkbox" required="" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface leading-snug">
+                    I understand this is an appointment request and is <strong>subject to clinic confirmation</strong> by phone call or WhatsApp message from Dr. Priya Clinic staff.
+                  </span>
+</label>
+</div>
+<div class="pt-space-xs flex flex-col sm:flex-row items-center gap-space-md">
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary font-label-lg text-label-lg px-space-xl py-3.5 rounded-full shadow-md hover:bg-primary-container transition-all" id="submit-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span>Request Appointment Slot</span>
+</button>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">lock</span>
+<span>Your medical details remain strictly private</span>
+</div>
+</div>
+<div class="hidden p-space-md rounded-lg bg-secondary-container text-on-secondary-container transition-all" id="status-message">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined">check_circle</span>
+<p class="font-label-md text-label-md">Thank you! Your visit request was received. Our team will contact you shortly.</p>
+</div>
+</div>
+</form>
+</div><div class="hidden space-y-space-lg" id="online-consultation-section"><div class="bg-surface-container-lowest rounded-xl p-space-lg sm:p-space-xl shadow-sm border border-secondary-container"><div class="border-b border-outline-variant pb-space-md mb-space-md"><div class="flex flex-wrap items-center justify-between gap-space-xs mb-1"><div class="inline-flex items-center gap-space-xs bg-secondary-container text-on-secondary-container px-space-sm py-0.5 rounded-full font-label-sm text-label-sm font-semibold"><span class="material-symbols-outlined text-[16px]">videocam</span>Online Video Consultation</div><span class="font-label-sm text-label-sm text-secondary font-bold">Through WhatsApp Video Call</span></div><div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2"><h2 class="font-headline-md text-headline-md text-on-surface">Consult with Dr. Priya, MBBS</h2><div class="text-left sm:text-right"><span class="font-label-sm text-label-sm text-on-surface-variant block">Consultation Fee</span><span class="font-headline-sm text-headline-sm text-primary font-bold">₹200 <span class="font-body-sm text-[13px] text-secondary font-medium">(Special Online Rate)</span></span></div></div><p class="font-body-md text-body-md text-on-surface-variant mt-2">Consult from home with Dr. Priya, MBBS via WhatsApp Video Call. Payment of ₹200 can be made later after clinic confirmation.</p></div><form class="space-y-space-md" id="online-booking-form" onsubmit="event.preventDefault(); handleOnlineConsultationSubmit();"><div class="space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="online-patient-name">Patient Full Name <span class="text-error">*</span></label><div class="relative"><span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">person</span><input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="online-patient-name" name="onlinePatientName" placeholder="e.g. Anandhi Rajagopal" required="" type="text"/></div></div><div class="space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="online-phone-number">Mobile Number (WhatsApp) <span class="text-error">*</span></label><div class="relative flex items-center"><div class="absolute left-3 flex items-center gap-1 font-label-md text-label-md text-on-surface-variant select-none pointer-events-none"><span>+91</span><span class="w-px h-4 bg-outline-variant inline-block ml-1"></span></div><input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-16 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline" id="online-phone-number" maxlength="10" name="onlinePhoneNumber" pattern="[0-9]{10}" placeholder="98XXXXXXXX" required="" type="tel"/></div><p class="font-label-sm text-label-sm text-on-surface-variant">Doctor will call this WhatsApp number for your video consultation</p></div><div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md"><div class="space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="online-pref-date">Preferred Consultation Date <span class="text-error">*</span></label><div class="relative"><span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">event</span><input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-4 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all" id="online-pref-date" name="onlinePrefDate" required="" type="date"/></div></div><div class="space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="online-pref-time">Preferred Time Window <span class="text-error">*</span></label><div class="relative"><span class="material-symbols-outlined absolute left-3.5 top-3.5 text-outline text-[20px]">schedule</span><select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md pl-11 pr-8 py-3 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all appearance-none" id="online-pref-time" name="onlinePrefTime" required=""><option value="">Select Time Window</option><option value="Morning 10:00 AM – 01:00 PM">Morning 10:00 AM – 01:00 PM</option><option value="Evening 05:30 PM – 08:00 PM">Evening 05:30 PM – 08:00 PM</option></select><span class="material-symbols-outlined absolute right-3 top-3.5 text-outline pointer-events-none">expand_more</span></div></div></div><div class="space-y-space-xs"><label class="block font-label-md text-label-md text-on-surface" for="online-reason">Reason for Consultation <span class="text-outline text-label-sm font-normal">(Optional)</span></label><textarea class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md p-3.5 rounded-lg focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all placeholder:text-outline resize-none" id="online-reason" name="onlineReason" placeholder="Describe symptoms, medical query, or past report discussion..." rows="3"></textarea></div><div class="p-space-md rounded-lg bg-surface-container-low border border-outline-variant"><label class="flex items-start gap-space-sm cursor-pointer select-none"><input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer shrink-0" id="online-consent-checkbox" required="" type="checkbox"/><span class="font-body-sm text-body-sm text-on-surface leading-snug">I agree to receive appointment communication through WhatsApp.</span></label></div><div class="pt-space-xs"><button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary font-label-lg text-label-lg px-space-xl py-3.5 rounded-full shadow-md hover:bg-primary-container transition-all cursor-pointer" id="online-submit-btn" type="submit"><span class="material-symbols-outlined text-[20px]">send</span><span>Submit Consultation Request</span></button></div></form><div class="hidden space-y-space-md pt-2" id="online-confirmation-state"><div class="bg-secondary-container/40 border border-secondary-container p-space-md rounded-xl space-y-space-xs"><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[24px]">task_alt</span><h3 class="font-headline-sm text-headline-sm text-on-surface">Your consultation request has been received.</h3></div><div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between border border-secondary-container/60"><span class="font-label-md text-label-md text-on-surface">Consultation Fee:</span><span class="font-headline-sm text-headline-sm text-primary font-bold">₹200</span></div><p class="font-body-md text-body-md text-on-surface">Payment can be made later. Dr. Priya Clinic will provide payment instructions through WhatsApp.</p></div><div class="pt-space-xs space-y-space-sm"><a class="w-full flex items-center justify-center gap-space-xs bg-[#25D366] hover:bg-[#20bd5a] text-white font-label-lg text-label-lg py-4 px-space-lg rounded-xl shadow-md transition-all text-center" href="https://wa.me/918072004703" id="whatsapp-continue-cta" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[24px]">chat</span><span>Continue on WhatsApp</span></a><div class="bg-surface-container-lowest border border-outline-variant/60 rounded-xl p-space-md space-y-1"><div class="flex items-center justify-between text-on-surface-variant font-label-sm text-[12px]"><span class="font-semibold text-primary flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">textsms</span>Pre-filled WhatsApp Message Preview:</span><span>Auto-formatted</span></div><div class="p- space-sm bg-surface-container-low rounded-lg font-mono text-[13px] text-on-surface border border-outline-variant/40 leading-relaxed select-all" id="whatsapp-message-preview">"Hello Dr. Priya Clinic. Requesting online consultation with Dr. Priya for [Patient Name] on [Date] ([Time]) for [Reason]. Awaiting confirmation &amp; ₹200 fee instructions."</div></div><div class="space-y-1 bg-surface-container-low p-space-sm rounded-lg text-on-surface-variant font-body-sm text-body-sm"><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[16px]">hourglass_empty</span><span>Please wait for Dr. Priya Clinic to confirm your consultation.</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[16px]">videocam</span><span>Once your appointment is confirmed, Dr. Priya will conduct the consultation through WhatsApp video call.</span></p></div><button class="font-label-sm text-label-sm text-primary underline hover:text-primary-container" onclick="resetOnlineForm()" type="button">Submit another request or modify details</button></div></div></div><div class="bg-error-container text-on-error-container rounded-xl p-space-md shadow-sm"><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-error text-[22px] shrink-0 mt-0.5">emergency_home</span><div class="space-y-1"><h5 class="font-label-md text-label-md font-bold text-error">Emergency Medical Disclaimer</h5><p class="font-body-sm text-body-sm text-on-error-container leading-relaxed">For medical emergencies, please call 108 or visit the nearest emergency department. Online consultation is not intended for emergency care.</p></div></div></div><div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm border border-secondary-container"><h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-md flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[22px]">video_call</span>How WhatsApp Video Consultation Works</h3><div class="space-y-space-md"><div class="flex items-start gap-space-sm"><div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center justify-center font-bold shrink-0">1</div><div><div class="font-label-md text-label-md text-on-surface">Submit your consultation request</div><div class="font-body-sm text-body-sm text-on-surface-variant">Fill in your name, mobile, and preferred schedule above.</div></div></div><div class="flex items-start gap-space-sm"><div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center justify-center font-bold shrink-0">2</div><div><div class="font-label-md text-label-md text-on-surface">Continue to WhatsApp</div><div class="font-body-sm text-body-sm text-on-surface-variant">Click the WhatsApp button to send your pre-filled inquiry directly to our clinic desk.</div></div></div><div class="flex items-start gap-space-sm"><div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center justify-center font-bold shrink-0">3</div><div><div class="font-label-md text-label-md text-on-surface">Dr. Priya Clinic confirms your appointment</div><div class="font-body-sm text-body-sm text-on-surface-variant">Our clinic coordinator checks Dr. Priya's schedule and locks your consultation slot.</div></div></div><div class="flex items-start gap-space-sm"><div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center justify-center font-bold shrink-0">4</div><div><div class="font-label-md text-label-md text-on-surface">Payment of ₹200 can be made later as instructed by the clinic</div><div class="font-body-sm text-body-sm text-on-surface-variant">Pay conveniently via UPI after confirmation. No advance payment required before request.</div></div></div><div class="flex items-start gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold shrink-0">5</div><div><div class="font-label-md text-label-md text-on-surface">Dr. Priya starts the WhatsApp video consultation at the confirmed time</div><div class="font-body-sm text-body-sm text-on-surface-variant">Receive an unhurried, one-on-one medical consultation right from your home.</div></div></div></div></div></div>
+</div>
+<div class="lg:col-span-4 space-y-space-md">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-center gap-space-sm pb-space-xs">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Clinic Direct Helpdesk</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Immediate OPD Scheduling</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Need same-day urgent consultation or prefer talking directly to our clinic desk receptionist?
+            </p>
+<div class="space-y-space-sm pt-space-xs">
+<a class="flex items-center justify-between w-full bg-surface-container p-space-md rounded-lg hover:bg-primary hover:text-on-primary group transition-all" href="tel:+918072004703">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">call</span>
+<div>
+<span class="font-label-sm text-label-sm block opacity-80">Call Clinic Reception</span>
+<span class="font-label-lg text-label-lg font-semibold">+91 80720 04703</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[18px] opacity-70 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="flex items-center justify-between w-full bg-secondary-container text-on-secondary-container p-space-md rounded-lg hover:bg-secondary hover:text-on-secondary group transition-all" href="https://wa.me/918072004703" rel="noopener noreferrer" target="_blank"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined">chat</span><div><span class="font-label-sm text-label-sm block opacity-80">WhatsApp Enquiry</span><span class="font-label-lg text-label-lg font-semibold">Message Clinic Desk (+91 80720 04703)</span></div></div><span class="material-symbols-outlined text-[18px] opacity-70 group-hover:translate-x-1 transition-transform">send</span></a>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-space-lg shadow-sm space-y-space-md">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<h4 class="font-label-lg text-label-lg text-on-surface">Consultation OPD Timings</h4>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm">
+<div class="flex justify-between items-center py-1">
+<span class="text-on-surface-variant">Morning OPD:</span>
+<span class="font-label-md text-label-md text-on-surface">9:00 AM – 1:00 PM</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-on-surface-variant">Evening OPD:</span>
+<span class="font-label-md text-label-md text-on-surface">5:00 PM – 8:30 PM</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-on-surface-variant">Days of Operation:</span>
+<span class="font-label-md text-label-md text-primary">Monday – Saturday</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-on-surface-variant">Sunday:</span>
+<span class="font-label-md text-label-md text-error">Closed [Placeholder]</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<div class="flex items-start gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">location_on</span>
+<div class="font-body-sm text-body-sm">
+<span class="font-label-md text-label-md text-on-surface block">Guindy, Chennai</span>
+<span class="text-on-surface-variant text-label-sm">Opposite Guindy Metro Station, GST Road, Chennai 600032</span>
+</div>
+</div>
+</div>
+</div><div class="bg-surface-container-lowest border border-secondary-container rounded-xl p-space-lg shadow-sm space-y-space-sm"><div class="flex items-center gap-space-xs text-primary"><span class="material-symbols-outlined text-[20px]">contactless</span><h4 class="font-label-lg text-label-lg text-on-surface font-bold">Instant UPI &amp; Contactless Pay</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Patients may pre-pay or settle via quick scan right at reception desk.</p><div class="bg-surface-container-low p-space-sm rounded-lg space-y-1"><div class="flex justify-between items-center"><span class="font-label-sm text-[12px] text-on-surface-variant">Official UPI ID:</span><span class="font-label-sm text-[11px] text-secondary font-bold">Verified</span></div><div class="flex items-center justify-between font-mono font-bold text-label-sm text-primary"><span class="select-all">drpriya.clinic@okhdfcbank</span><span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span></div></div><div class="space-y-1 font-body-sm text-[12px] text-on-surface-variant"><div class="flex items-center justify-between py-0.5"><span>Accepted Payment:</span><span class="font-semibold text-on-surface">UPI, RuPay, Visa, MC &amp; Cash</span></div><div class="flex items-center justify-between py-0.5"><span>Transaction Fee:</span><span class="font-semibold text-secondary">₹0 (Zero Charges)</span></div></div></div>
+<div class="bg-error-container text-on-error-container rounded-xl p-space-md shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[22px] shrink-0 mt-0.5">emergency_home</span>
+<div class="space-y-1">
+<h5 class="font-label-md text-label-md font-bold text-error">Medical Emergency Warning</h5>
+<p class="font-body-sm text-body-sm text-on-error-container leading-relaxed">
+                  Dr. Priya Clinic is an outpatient consultation facility. If you or a family member are experiencing acute chest pain, shortness of breath, severe trauma, or life-threatening symptoms, please <strong>immediately dial 108 or 112</strong> or go to the nearest emergency hospital casualty in Chennai.
+                </p>
+</div>
+</div>
+</div>
+<a class="rounded-xl overflow-hidden shadow-sm relative block group cursor-pointer" href="https://www.google.com/maps/search/?api=1&amp;query=13.0024206,80.2195578" rel="noopener noreferrer" target="_blank"><div class="w-full h-44 bg-cover bg-center transition-transform duration-300 group-hover:scale-105" data-location="Guindy Metro Station, Chennai, Tamil Nadu, India" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtHHjwciYmFzZ7U8b00nbBtmLT-cBXh_XaZazHNR24ZXdwUKjtihRVV7KPS7yT7yw6fSmMM0dVlCoRQ2L9PSEoZR6YVXyf6GQZ6elstnY85lCO5mUuc0TfFutohPMqmhepya9RZYCrNypU763wzRTDd57206oRqN54S-Hk3jKksRo8Wl_7hMv3fnsATthTZPzw2jO8wXtbLGIxqIcZLI_dbkaNfrmBkZnf_uGs0kMwXKfISUBhnXd96Q')"></div><div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-on-surface/90 to-transparent p-space-sm text-on-primary"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">location_on</span>Guindy, Chennai (Near Metro &amp; GST Road)</span><span class="font-label-sm text-label-sm underline flex items-center gap-1">Find on Maps<span class="material-symbols-outlined text-[14px]">open_in_new</span></span></div></div></a>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-7xl mx-auto px-space-lg">
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">The Consultation Process</span>
+<h3 class="font-headline-lg text-headline-lg text-primary mt-1">What Happens Next?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Clear, tranquil steps so you know exactly what to anticipate from inquiry to full clinical recovery.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg flex items-center justify-center font-bold">
+            01
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Staff Verification</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Our receptionist cross-references doctor consultation queues and contacts you by phone or WhatsApp to lock your exact arrival timing.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm relative">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center font-bold">
+            02
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">OPD Arrival</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Reach our clinic located conveniently opposite the Guindy Metro Station. Enjoy our serene, uncrowded waiting lounge with soothing tea and reading.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm space-y-space-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg flex items-center justify-center font-bold">
+            03
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">In-Depth Consultation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Dr. Priya, MBBS conducts a compassionate clinical diagnostic, reviews past records, and prescribes tailored medical solutions with dedicated time for questions.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<script>
+    function selectType(btnElement, typeName, fee, duration) {
+      document.getElementById('selected-consult-type').value = typeName;
+      if (document.getElementById('selected-consult-fee')) {
+        document.getElementById('selected-consult-fee').value = fee;
+      }
+      const feeSummaryText = document.getElementById('fee-summary-text');
+      if (feeSummaryText) {
+        feeSummaryText.textContent = `${typeName}: ${fee} (Approx. ${duration})`;
+      }
+      const allButtons = document.querySelectorAll('.type-btn');
+      allButtons.forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-on-primary-container', 'shadow-md', 'active-type');
+        btn.classList.add('bg-surface-container');
+        const textElements = btn.querySelectorAll('.font-label-md, .font-label-sm, .material-symbols-outlined');
+        textElements.forEach(t => {
+          t.classList.remove('text-on-primary-container', 'text-on-primary-container/80');
+          if (t.classList.contains('material-symbols-outlined') || t.classList.contains('font-bold')) {
+            t.classList.add('text-primary');
+          } else if (t.classList.contains('font-label-md')) {
+            t.classList.add('text-on-surface');
+          } else if (t.classList.contains('font-label-sm')) {
+            t.classList.add('text-on-surface-variant');
+          }
+        });
+      });
+
+      btnElement.classList.remove('bg-surface-container');
+      btnElement.classList.add('bg-primary-container', 'text-on-primary-container', 'shadow-md', 'active-type');
+      const activeTexts = btnElement.querySelectorAll('.font-label-md, .font-label-sm, .material-symbols-outlined');
+      activeTexts.forEach(t => {
+        t.classList.remove('text-on-surface', 'text-on-surface-variant', 'text-primary');
+        if (t.classList.contains('font-label-sm')) {
+          t.classList.add('text-on-primary-container/80');
+        } else {
+          t.classList.add('text-on-primary-container');
+        }
+      });
+    }
+
+    function selectSlot(btn, slotText) {
+      const slotInput = document.getElementById('selected-slot-input');
+      if (slotInput) slotInput.value = slotText;
+      const allSlots = document.querySelectorAll('.slot-chip');
+      allSlots.forEach(s => {
+        s.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        s.classList.add('bg-surface-container', 'text-on-surface');
+      });
+      btn.classList.remove('bg-surface-container', 'text-on-surface');
+      btn.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+    }
+
+    function switchConsultationMode(mode) {
+      const inpersonSection = document.getElementById('inperson-consultation-section');
+      const onlineSection = document.getElementById('online-consultation-section');
+      const tabInperson = document.getElementById('tab-btn-inperson');
+      const tabOnline = document.getElementById('tab-btn-online');
+
+      if (mode === 'online') {
+        inpersonSection.classList.add('hidden');
+        onlineSection.classList.remove('hidden');
+        tabOnline.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        tabOnline.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold', 'shadow-sm');
+        tabInperson.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold', 'shadow-sm');
+        tabInperson.classList.add('bg-surface-container', 'text-on-surface-variant');
+        onlineSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        onlineSection.classList.add('hidden');
+        inpersonSection.classList.remove('hidden');
+        tabInperson.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        tabInperson.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold', 'shadow-sm');
+        tabOnline.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold', 'shadow-sm');
+        tabOnline.classList.add('bg-surface-container', 'text-on-surface-variant');
+        inpersonSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function handleOnlineConsultationSubmit() {
+      const patientName = document.getElementById('online-patient-name').value.trim() || 'Patient';
+      const patientPhone = document.getElementById('online-phone-number').value.trim();
+      const prefDate = document.getElementById('online-pref-date').value || 'Convenient Date';
+      const prefTime = document.getElementById('online-pref-time').value || 'OPD hours';
+      const reasonVal = document.getElementById('online-reason').value.trim();
+      const reason = reasonVal ? reasonVal : 'General Consultation';
+
+      // Concise template:
+      // "Hello Dr. Priya Clinic. Requesting online consultation with Dr. Priya for [Patient Name] on [Date] ([Time]) for [Reason]. Awaiting confirmation & ₹200 fee instructions."
+      const formattedMessage = `Hello Dr. Priya Clinic. Requesting online consultation with Dr. Priya for ${patientName} on ${prefDate} (${prefTime}) for ${reason}. Awaiting confirmation & ₹200 fee instructions.`;
+
+      const whatsappUrl = `https://wa.me/918072004703?text=${encodeURIComponent(formattedMessage)}`;
+
+      const ctaBtn = document.getElementById('whatsapp-continue-cta');
+      if (ctaBtn) {
+        ctaBtn.href = whatsappUrl;
+      }
+
+      const previewBox = document.getElementById('whatsapp-message-preview');
+      if (previewBox) {
+        previewBox.textContent = `"${formattedMessage}"`;
+      }
+
+      const form = document.getElementById('online-booking-form');
+      const confirmationState = document.getElementById('online-confirmation-state');
+      if (form && confirmationState) {
+        form.classList.add('hidden');
+        confirmationState.classList.remove('hidden');
+        confirmationState.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function resetOnlineForm() {
+      const form = document.getElementById('online-booking-form');
+      const confirmationState = document.getElementById('online-confirmation-state');
+      if (form && confirmationState) {
+        confirmationState.classList.add('hidden');
+        form.classList.remove('hidden');
+      }
+    }
+
+    function handleAppointmentSubmit() {
+      const form = document.getElementById('appointment-form');
+      const submitBtn = document.getElementById('submit-btn');
+      const statusMsg = document.getElementById('status-message');
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">progress_activity</span><span>Submitting Request...</span>';
+
+      setTimeout(() => {
+        submitBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">done_all</span><span>Request Registered</span>';
+        submitBtn.classList.remove('bg-primary');
+        submitBtn.classList.add('bg-secondary');
+        statusMsg.classList.remove('hidden');
+        form.reset();
+      }, 1200);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const today = new Date().toISOString().split('T')[0];
+      const dateInput = document.getElementById('preferred-date');
+      if (dateInput) {
+        dateInput.min = today;
+      }
+      const onlineDateInput = document.getElementById('online-pref-date');
+      if (onlineDateInput) {
+        onlineDateInput.min = today;
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface-variant py-space-xl"><div class="max-w-7xl mx-auto px-space-lg"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-xl mb-space-xl"><div class="space-y-space-sm md:col-span-2"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary">Dr. Priya Clinic</span><span class="bg-secondary-container text-on-secondary-container px-space-xs py-0.5 rounded-full font-label-sm text-label-sm">Accredited Clinic</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Empathetic, boutique clinical healthcare dedicated to compassionate patient consultation and holistic clinical recovery in Guindy, Chennai.</p><div class="bg-surface-container px-space-md py-space-sm rounded-lg max-w-md"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-error text-[18px] shrink-0">health_and_safety</span><p class="font-label-sm text-label-sm text-on-surface-variant"><strong class="text-error">Medical Disclaimer:</strong> For severe life-threatening emergencies, please immediately dial 108 or proceed to the nearest emergency room hospital in Chennai.</p></div></div></div><div class="space-y-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Consultation Timings</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">Morning OPD</span><span>Mon - Sat: 9:00 AM - 1:00 PM</span></li><li class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">Evening OPD</span><span>Mon - Sat: 5:00 PM - 8:30 PM</span></li><li class="flex flex-col"><span class="font-label-md text-label-md text-on-surface">Sunday</span><span>Prior Appointment Only</span></li></ul></div><div class="space-y-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Clinic Location</h4><p class="font-body-sm text-body-sm">Dr. Priya Clinic, GST Main Road,<br/>Opposite Guindy Metro Station,<br/>Guindy, Chennai - 600032</p><div class="pt-space-xs"><span class="font-label-sm text-label-sm text-primary">TN Medical Council Reg: #64892</span></div></div></div><div class="pt-space-lg text-center font-label-sm text-label-sm text-on-surface-variant flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p>© 2024 Dr. Priya Clinic, Guindy, Chennai. All clinical rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" data-path="patient-info" href="#">Patient Rights</a><a class="hover:text-primary transition-colors" data-path="contact-location" href="#">Find Directions</a></div></div></div></footer></body></html>
